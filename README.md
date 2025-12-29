@@ -16,7 +16,7 @@ Además, la aplicación gestiona estados de carga y errores para mejorar la expe
 
 Disponible en producción en Netlify:
 
-👉 https://TU_URL_AQUI.netlify.app
+👉 https://movie-search-ivan.netlify.app/
 
 ---
 
