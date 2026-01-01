@@ -59,6 +59,10 @@ h1 {
   overflow: hidden;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-bottom: 6px;
 }
 
 .movie:hover {
@@ -99,4 +103,53 @@ h1 {
   to {
     transform: rotate(360deg);
   }
+}
+
+.fav-btn {
+  margin: 10px 12px 14px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  background: white;
+
+  margin-top: auto;
+}
+
+.fav-btn:hover {
+  background: #f3f4f6;
+}
+
+#toggleView {
+  margin-bottom: 20px;
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  background: white;
+}
+
+#toggleView:hover {
+  background: #f3f4f6;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  background: white;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
